@@ -118,7 +118,6 @@ class BookList {
 }
 
 
-
     const myBookList = new BookList();
     const book1 = new Book ("Book 1", "Fiction 1", "Author 1")
     const book2 = new Book ("Book 2", "Fiction 2", "Author 2")
@@ -132,10 +131,10 @@ class BookList {
 
 
 
-// document.getElementById("book-form").addEventListener("submit", (event) => {
-//     const title = document.getElementById("book-title")
-//     const genre = document.getElementById("book-genre")
-//     const author = document.getElementById("book-author")
+document.getElementById("book-form").addEventListener("submit", (event) => {
+    const title = document.getElementById("book-title")
+    const genre = document.getElementById("book-genre")
+    const author = document.getElementById("book-author")
 
     
 

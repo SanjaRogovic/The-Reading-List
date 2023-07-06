@@ -8,9 +8,40 @@
     <title>The Reading List</title>
 </head>
 <body>
-    <header>
-        <h1>The Reading List</h1>
-    </header>
-    
+    <section id="list-container">
+        <h1>The reading List</h1>
+        <form id="book-form">
+            <div>
+                <label for="title">Title</label>
+                <input type="input-text" id="book-title">
+            </div>
+            <div>
+                <label for="genre">Genre</label>
+                <input type="text" id="book-genre">
+            </div>
+            <div>
+                <label for="title">Author</label>
+                <input type="input-text" id="book-author">
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+            <hr >
+                <table id="book-table">
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Genre</th>
+                            <th>Author</th>
+                        </tr>
+                    </thead>
+                    <tbody id="book-table-body">
+
+                    </tbody>
+                </table>
+                
+            </hr>
+        </form>
+    </section>
 </body>
 </html>

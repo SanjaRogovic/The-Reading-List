@@ -135,6 +135,6 @@ document.getElementById("book-form").addEventListener("submit", (event) => {
     const title = document.getElementById("book-title")
     const genre = document.getElementById("book-genre")
     const author = document.getElementById("book-author")
-
+})
     
 

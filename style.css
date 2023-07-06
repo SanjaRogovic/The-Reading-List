@@ -2,6 +2,80 @@
     margin: 0;
 }
 
-header {
-    background-color: antiquewhite;
+body {
+    display: flex;
+    justify-content: center;
+    background: rgb(211, 172, 216)
+    
 }
+
+#list-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px;
+    padding: 50px;
+}
+
+section h1{
+    align-items: center;
+    padding-bottom: 30px;
+   font-weight: bolder;
+    font-size: 40px;
+    color: rgb(31, 4, 104);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+button{
+    background-color: #dd8613;   
+    color:black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+form input:focus{
+    outline: none;
+    border-color: #0d75ec;
+  }
+
+  section form {
+    align-items: center;
+    justify-content: center;
+  }
+
+  #book-title, #book-genre, #book-author{
+    padding: 8px;
+    margin: 10px;
+    margin-left: 50px;
+    border-radius: 10px;
+    outline: none;
+  } 
+
+
+  #book-title{
+    margin-left: 60px;
+  }
+
+  #book-author{
+    margin-left: 45px;
+  }
+ 
+
+  hr{
+    margin-top: 30px;
+
+  }
+
+  #book-table{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+   
+  }
+
+  tr th{
+    padding: 40px;
+    margin: 10px;
+  }

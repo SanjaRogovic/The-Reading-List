@@ -14,8 +14,7 @@ JS OOP Project
   A reference to the last book read (book object)
 
 3. Each Book should have several properties:
-    Title,
-   Genre, Author, Read (true or false), Read date, can be blank, otherwise needs to be a JS Date() object
+    Title, Genre, Author, Read (true or false), Read date, can be blank, otherwise needs to be a JS Date() object
 
 5. Every Booklist should have a few methods:
    .add(book) *** should add a book to the books list *** .finishCurrentBook() ** should mark the book that is currently being read as “read”
